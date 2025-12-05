@@ -22,8 +22,8 @@ Outputs are printed to the console and include results for the following timings
     Gate Slacks: Slack values ​​for each gate.
     Critical Path: Sequence of gates in the critical path.
 ```
-The analysis of the IP design graph is also simplified because the elaboration step producing the full design gate-level netlist that is performed by the Verify parser is missing.
-Since the Verific library is a commercial source that is paid for, it is not included here.
+The analysis of the IP design graph is also simplified because the elaboration step producing the full design gate-level netlist that is performed by the Verify parser is missing.             
+Since the Verific library is a commercial source that is paid for, it is not included here.                                                          
 For information about the Verific Verilog parser and library, see www.verific.com.
 
 
