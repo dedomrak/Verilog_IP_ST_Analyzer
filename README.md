@@ -1,12 +1,12 @@
 
 # VIP_Static_Timing_analyzer
-VIP ST analyzer is a static timing analysis (STA) tool that calculates and displays timing information for the analyzed Verilog IP.
+VIP ST analyzer is a Static Timing Analysis (STA) tool that calculates and displays timing information for the analyzed Verilog IP.
 This first version of the tool reports circuit delay, slack values, and identifies the critical path.
 The following modules are included, some of which are incomplete and their commands are not fully supported and used:
 Input Verilog/SystemVerilog file that describes the gate-level netlist of the IP. The IP must be elaborated with a flat hierarchy. All instances are of cells from the standard library.
 The Verifik parser can produce such an elaborate gate-level netlist from cells from a full hierarchical Verilog design. This step is missing in this tool due to a limitation in the parser code.
 Parser of a standard cell library in Liberty format.
-Have included two such parsers - one which is very simplified with only a few options and the second in the ./LIB_parser folder which supports almost all of the Liberty syntax for describing standard cells.
+Have included two such parsers - one which is very simplified with only a few options and the second in the ./LIB_parser folder which supports almost all of the Liberty syntax for describing standard cells.       
 SDC parser - reads a Synopsis Design Constraint file and currently only a few timing commands are available:
 ```javascript
     -create_clock -name -period [get_ports ]
