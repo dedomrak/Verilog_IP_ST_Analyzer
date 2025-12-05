@@ -10,8 +10,6 @@
 #include <QRegularExpression>
 #include <QStack>
 
-#define MAX_ALLOWABLE_JITTER 1.0
-#define SCOPE_JOIN_STR " : "
 
 LIBParser::LIBParser()
 {
