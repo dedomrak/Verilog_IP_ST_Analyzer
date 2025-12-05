@@ -1,6 +1,6 @@
 
 # VIP_Static_Timing_analyzer
-VIP ST analyzer is a Static Timing Analysis (STA) tool that calculates and displays timing information for the analyzed Verilog IP.
+VIP_ST_Analyzer is a Static Timing Analysis (STA) tool that calculates and displays timing information for the analyzed Verilog IP.
 This first version of the tool reports circuit delay, slack values, and identifies the critical path.
 The following modules are included, some of which are incomplete and their commands are not fully supported and used:                                                        
 Input Verilog/SystemVerilog file that describes the gate-level netlist of the IP. The IP must be elaborated with a flat hierarchy. All instances are of cells from the standard library.
