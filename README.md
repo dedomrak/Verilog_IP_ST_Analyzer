@@ -55,9 +55,10 @@ and the other is the one used for the tests and is named NLDM_max2Inp.lib. It ha
 ## Test schematic
 Definition c17 is a combinational benchmark circuit that belongs to ISCAS85 family with five inputs (i.e., N1,N2,N3,N6 and N7) and two outputs (i.e., N22,N23) . 
 All benchmark circuits of the ISCAS85 family are used for logic testing. C17 is chosen for evaluation as it is the smallest circuit amongst the ISCAS85 family. 
-This benchmark circuit consists of six NAND gates.
+This benchmark circuit consists of six NAND gates.                                                                
 C17 Schematic:
-![Alt text](/doc/VIP_STA_printscreen.jpg?raw=true "Optional Title")
+![Alt text](/doc/C17_schematic.png?raw=true "Optional Title")
+
 
 
 ## Example log 
