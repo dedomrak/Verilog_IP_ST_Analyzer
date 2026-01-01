@@ -59,8 +59,6 @@ This benchmark circuit consists of six NAND gates.
 C17 Schematic:
 ![Alt text](/doc/C17_schematic.png?raw=true "Optional Title")
 
-
-
 ## Example log 
 
 ```javascript
