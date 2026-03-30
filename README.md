@@ -59,7 +59,7 @@ This benchmark circuit consists of six NAND gates.
 C17 Schematic:
 ![Alt text](/doc/C17_schematic.png?raw=true "Optional Title")
 
-Simplified C17 schematic and structural verilog netlist:
+Simplified C17 schematic and structural Verilog netlist:
 ![Alt text](/doc/C17_schematic_structural_Verilog_netlist.png?raw=true "Optional Title")
 ## Example log 
 
